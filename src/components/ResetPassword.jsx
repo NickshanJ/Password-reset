@@ -26,7 +26,7 @@ const ResetPassword = () => {
     }
   };
 
-return (
+  return (
     <div className="flex justify-center bg-black text-white items-center h-screen">
         <form onSubmit={handleSubmit} className="p-6 bg-[#262424ca] rounded shadow-md w-96">
         <h2 className="text-2xl font-bold mb-4">Reset Password</h2>
